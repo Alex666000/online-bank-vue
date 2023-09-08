@@ -1,10 +1,11 @@
 <template>
   <div class="container with-nav">
-    <div class="card">
-      <the-navbar></the-navbar>
-    </div>
+    <the-navbar></the-navbar>
+    <router-view/>
   </div>
 </template>
+
+
 
 <script>
 import TheNavbar from '@/components/TheNavbar'
@@ -14,6 +15,8 @@ export default {
 
 }
 </script>
+
+
 
 <style scoped>
 

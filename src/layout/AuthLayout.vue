@@ -1,14 +1,11 @@
 <template>
   <div class="container">
-    <div class="card">
-
-    </div>
+    <router-view/>
   </div>
 </template>
 
 <script>
-export default {
-}
+export default {}
 </script>
 
 <style scoped>
